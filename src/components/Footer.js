@@ -16,8 +16,8 @@ const IconButtonContainer = styled.li`
 `;
 
 const IconSVG = styled.img`
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 5px;
   opacity: 0.5;
   transition: opacity 400ms;
