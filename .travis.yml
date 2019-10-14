@@ -7,3 +7,17 @@ before_install:
 
 script:
   - docker run -e CI=true georgefinn/portfolio npm run test
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-1"
+  app: "portfolio"
+  env: "Portfolio-env"
+  bucket_name: "elasticbeanstalk-us-east-1-544218823660"
+  bucket_path: "portfolio"
+  on:
+    branch: master
+  access_key_id:
+    secure: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: $AWS_SECRET_KEY
