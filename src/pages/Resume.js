@@ -108,7 +108,7 @@ class Resume extends Component {
     const projects = [
       {
         name: "Education Learning Platform",
-        position: "Creator",
+        position: "Developer",
         description:
           " Built a full-stack system with role-based authentication for administrators and students.  I developed an administrative panel to upload files, videos, and activities using Java spring boot for backend and ReactJS for frontend. The application was deployed using AWS Elastic BeanStalk with CI/CD.",
         languages: ["HTML5", "CSS3", "JavaScript", "React", "Java"]
