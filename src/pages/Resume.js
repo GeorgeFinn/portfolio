@@ -129,7 +129,7 @@ class Resume extends Component {
       },
       {
         name: "Rose Art",
-        position: "Developer",
+        position: "Student",
         description:
           "Developed a community driven art gallery web application to manage and share RHIT's art collection of over 7000 pieces.  Designed full stack system architecture.  Developed application through AngularFire2 with CRUD system to manage art.",
         languages: ["HTML5", "CSS3", "TypeScript", "Angular4"]
